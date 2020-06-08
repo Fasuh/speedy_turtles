@@ -1,0 +1,16 @@
+name: logic
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  bloc: ^4.0.0
+  equatable: ^1.2.0
+  web_socket_channel: ^1.1.0
+  rxdart: ^0.24.1
+
+dev_dependencies:
