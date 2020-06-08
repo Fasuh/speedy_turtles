@@ -1,8 +1,7 @@
 part of logic;
 
-abstract class SocketEvent extends Equatable {
-  @override
-  List<Object> get props => [];
-}
+class ConnectToTheGameEvent extends CustomChangeableEvent {
+  final String name;
 
-class ConnectToTheGameEvent extends SocketEvent {}
+  ConnectToTheGameEvent(this.name);
+}

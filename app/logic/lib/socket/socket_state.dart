@@ -8,3 +8,11 @@ abstract class SocketState extends Equatable {
 class OfflineState extends SocketState {}
 
 class OnlineState extends SocketState {}
+
+class ConnectingState extends SocketState {}
+
+class ConnectionErrorState extends SocketState {
+  final Error error;
+
+  ConnectionErrorState(this.error);
+}
